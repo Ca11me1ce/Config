@@ -25,7 +25,8 @@ In the directory that you modified and you want to push<br>
 > git clone git_address<br>
 ------
 #### git config:<br>
-> generate ssh key: ssh-keygen -C 'email_address' -t rsa<br>
+> generate ssh key: 
+>>>	ssh-keygen -C 'email_address' -t rsa<br>
 * 'cd .ssh' to get into ssh directory<br>
 * id_rsa is private key<br>
 * id_rsa.pub is public key which is used to connect to github with ssh key<br>
@@ -33,7 +34,7 @@ In the directory that you modified and you want to push<br>
 #### Test connection: 
 > ssh -v git@github.com<br>
 ------
-#### Initilize git: 
+#### Initialize git: 
 > git init<br>
 ------
 #### Then you can create a new repo in github.com<br>
