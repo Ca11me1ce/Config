@@ -17,9 +17,9 @@ Add commit to buffer: 	<br>
 
 First time push:<br>	
 
-> 	git remote add origin ssh_repo_address
-> 	git remote set-url origin ssh_repo_address
-> 	git push origin master
+> 	git remote add origin ssh_repo_address <br>
+> 	git remote set-url origin ssh_repo_address <br>
+> 	git push origin master <br>
 
 push forcely:	<br>	
 
