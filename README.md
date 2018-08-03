@@ -5,8 +5,10 @@
 
 In the directory that you modified and you want to push<br>
 Add file to commit: <br>	
-> git add . 	
+> git add . 
+	
 or 	<br>
+
 > 	git add filename 
 Add commit to buffer: 	<br>
 > 	git commit -m "change name"
