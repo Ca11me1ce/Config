@@ -27,7 +27,7 @@ In the directory that you modified and you want to push<br>
 #### git config:<br>
 > generate ssh key: 
 >>>	ssh-keygen -C 'email_address' -t rsa<br>
-* 'cd .ssh' to get into ssh directory<br>
+* 'cd .ssh' is used to get into ssh directory<br>
 * id_rsa is private key<br>
 * id_rsa.pub is public key which is used to connect to github with ssh key<br>
 ------
