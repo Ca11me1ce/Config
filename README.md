@@ -3,7 +3,7 @@
 ### This is the test for Git in Github
 #### push commit: <br>
 
-In the directory you modify and you want to push<br>
+In the directory that you modified and you want to push<br>
 > Add file to commit: 	
 >>> 	git add .	
 > or 	
