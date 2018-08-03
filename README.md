@@ -5,23 +5,21 @@
 
 In the directory that you modified and you want to push<br>
 Add file to commit: <br>	
-> git add . 
-	
+> git add . <br>	
 or 	<br>
-
-> 	git add filename 
+> 	git add filename <br>
 Add commit to buffer: 	<br>
-> 	git commit -m "change name"
+> 	git commit -m "change name"	<br>
 First time push:<br>	
-> 	git remote add origin ssh_repo_address
-> 	git remote set-url origin ssh_repo_address
-> 	git push origin master
+> 	git remote add origin ssh_repo_address	<br>
+> 	git remote set-url origin ssh_repo_address	<br>
+> 	git push origin master	<br>
 push forcely:	<br>	
-> 	git push -u origin +master
+> 	git push -u origin +master	<br>
 push to the online: 	<br>
-> 	git push
+> 	git push	<br>
 pull from the online:	<br>
-> 	git pull
+> 	git pull	<br>
 ------
 #### clone command:<br>
 > git clone git_address<br>
