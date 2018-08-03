@@ -10,17 +10,27 @@ Add file to commit: <br>
 or 	<br>
 
 > 	git add filename 
+
 Add commit to buffer: 	<br>
+
 > 	git commit -m "change name"
+
 First time push:<br>	
+
 > 	git remote add origin ssh_repo_address
 > 	git remote set-url origin ssh_repo_address
 > 	git push origin master
+
 push forcely:	<br>	
+
 > 	git push -u origin +master
+
 push to the online: 	<br>
+
 > 	git push
+
 pull from the online:	<br>
+
 > 	git pull
 ------
 #### clone command:<br>
