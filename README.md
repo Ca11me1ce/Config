@@ -44,7 +44,7 @@ In the directory that you modified and you want to push<br>
 #### Set user email: 
 > git config --global user.email "your email_addr"<br>
 ------
-#### Useful command:<br>
+#### Useful commands:<br>
 * git diff<br>
 * git status<br>
 * git branch<br>
