@@ -1,6 +1,6 @@
 # GitConfigTest
 
-### This is the test for Git in Github
+### This is the note for Git in Github
 #### push commit: <br>
 
 In the directory that you modified and you want to push<br>
@@ -20,35 +20,28 @@ In the directory that you modified and you want to push<br>
 >>> 	git push
 > pull from the online:	
 >>> 	git pull
-
 ------
 #### clone command:<br>
 > git clone git_address<br>
-
 ------
 #### git config:<br>
 > generate ssh key: ssh-keygen -C 'email_address' -t rsa<br>
 * 'cd .ssh' to get into ssh directory<br>
 * id_rsa is private key<br>
 * id_rsa.pub is public key which is used to connect to github with ssh key<br>
-
 ------
 #### Test connection: 
 > ssh -v git@github.com<br>
-
 ------
 #### Initilize git: 
 > git init<br>
-
 ------
 #### Then you can create a new repo in github.com<br>
-
 ------
 #### Set user name: 
 > git config --global user.name "your user_name"<br>
 #### Set user email: 
 > git config --global user.email "your email_addr"<br>
-
 ------
 #### Useful command:<br>
 * git diff<br>
