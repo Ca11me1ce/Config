@@ -3,15 +3,23 @@
 ### This is the test for Git in Github
 #### push commit: <br>
 
-in the directory you modify and you want to push<br>
-> add file to commit: 	git add .	or 	git add filename<br>
-> add commit to buffer: 	git commit -m "change name"<br>
-> First time push:	git remote add origin ssh_repo_address<br>
+In the directory you modify and you want to push<br>
+> Add file to commit: 	
+>>>			git add .	
+> or 	
+>>>  			git add filename<br>
+> Add commit to buffer: 	
+>>> 			git commit -m "change name"<br>
+> First time push:	
+>>> 			git remote add origin ssh_repo_address<br>
 >>>			git remote set-url origin ssh_repo_address<br>
 >>>			git push origin master<br>
-> push forcely		git push -u origin +master<br>
-> push to the online: 	git push<br>
-> pull from the online	git pull<br>
+> push forcely:		
+>>>			git push -u origin +master<br>
+> push to the online: 	
+>>>			git push<br>
+> pull from the online:	
+>>>			git pull<br>
 
 ------
 #### clone command:<br>
