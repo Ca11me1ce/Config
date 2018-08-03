@@ -1,6 +1,6 @@
 # GitConfigTest
 #This is the test for Git in Github
-push commit: <b>
+push commit: <br>
 in the directory you modify and you want to push<b>
 add file to commit: 	git add .	or 	git add filename<b>
 add commit to buffer: 	git commit -m "change name"<b>
