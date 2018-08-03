@@ -4,28 +4,28 @@
 #### push commit: <br>
 
 In the directory that you modified and you want to push<br>
-> Add file to commit: 	
+Add file to commit: 	
 >>> 	git add .	
-> or 	
+or 	
 >>> 	git add filename
-> Add commit to buffer: 	
+Add commit to buffer: 	
 >>> 	git commit -m "change name"
-> First time push:	
+First time push:	
 >>> 	git remote add origin ssh_repo_address
 >>> 	git remote set-url origin ssh_repo_address
 >>> 	git push origin master
-> push forcely:		
+push forcely:		
 >>> 	git push -u origin +master
-> push to the online: 	
+push to the online: 	
 >>> 	git push
-> pull from the online:	
+pull from the online:	
 >>> 	git pull
 ------
 #### clone command:<br>
 > git clone git_address<br>
 ------
 #### git config:<br>
-> generate ssh key: 
+generate ssh key: 
 >>>	ssh-keygen -C 'email_address' -t rsa<br>
 * 'cd .ssh' is used to get into ssh directory<br>
 * id_rsa is private key<br>
