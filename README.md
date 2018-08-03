@@ -1,4 +1,5 @@
 # GitConfigTest
+
 ### This is the test for Git in Github
 push commit: <br>
 in the directory you modify and you want to push<br>
@@ -34,6 +35,5 @@ git status<br>
 git branch<br>
 git checkout<br>
 git stash<br>
-
 
 
