@@ -3,7 +3,7 @@
 ### This is the note for Git in Github
 #### push commit: <br>
 
-In the directory that you modified and you want to push<br>
+<b>In the directory that you modified and you want to push</b><br>
 Add file to commit: <br>	
 > git add . <br>
 	
