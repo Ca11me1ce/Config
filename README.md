@@ -36,7 +36,7 @@ git config --global user.email "your_email@email.com"
 7. Download your necessary repo
 
 8. In the repo, use git_push.sh to commit modifications
-
+------
 #### Push Commit: <br>
 <b>git_push.sh</b><br>
 ```bash
