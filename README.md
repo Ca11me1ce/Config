@@ -1,6 +1,6 @@
 # GitConfigTest
 
-### This is the note for Git in Github
+### This is the note for the Git to connect to the Github
 ### Process:
 0. Download Git<br>
 
@@ -21,7 +21,7 @@ ssh-keygen -t rsa -C "your_email@email.com"
 cat ~/.ssh/id_rsa.pub
 ```
 > Copy ssh public key, and go to https://www.github.com<br>
-> Go to Profile>>Setting>>SSH and GPG keys, create a new ssh key and paste ssh public key.
+> Go to Profile>>Setting>>SSH and GPG keys, create a new ssh key and paste ssh public key.<br>
 
 5. Test connection
 ```bash
@@ -33,9 +33,9 @@ ssh -T git@github.com
 git config --global user.name "your name"
 git config --global user.email "your_email@email.com"
 ```
-7. Download your necessary repo
+7. Download your necessary repo<br>
 
-8. In the repo, use git_push.sh to commit modifications
+8. In the repo, use git_push.sh to commit modifications<br>
 ------
 #### Push Commit: <br>
 <b>git_push.sh</b><br>
