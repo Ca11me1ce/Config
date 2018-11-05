@@ -1,7 +1,7 @@
 # GitConfigTest
 
 ### This is the note for Git in Github
-### Flow Process:
+### Process:
 0. Download Git<br>
 
 1. In dir '~', <br>
