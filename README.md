@@ -2,12 +2,40 @@
 
 ### This is the note for Git in Github
 ### Flow Process:
-0. In dir '~', <br>
+0. Download Git<br>
+
+1. In dir '~', <br>
 ```bash
 git init
 ```
 
-1. 
+2. Construct a new folder as Git Work Station in '~'<br>
+
+3. Construct ssh key<br>
+```bash
+ssh-keygen -t rsa -C "your_email@email.com"
+```
+
+4. The ssh key is in '~'<br>
+```bash
+cat ~/.ssh/id_rsa.pub
+```
+Copy ssh public key, and go to https://www.github.com<br>
+Go to Profile>>Setting>>SSH and GPG keys, create a new ssh key and paste ssh public key.
+
+5. Test connection
+```bash
+ssh -T git@github.com
+```
+
+6. Set Username and email
+```bash
+git config --global user.name "your name"
+git config --global user.email "your_email@email.com"
+```
+7. Download your necessary repo
+
+8. In the repo, use git_push.sh to commit modifications
 
 #### push commit: <br>
 <b>git_push.sh</b><br>
