@@ -2,7 +2,13 @@
 
 ### This is the note for Git in Github
 ### Flow Process:
-0. In 
+0. In dir '~', <br>
+```bash
+git init
+```
+
+1. 
+
 #### push commit: <br>
 <b>git_push.sh</b><br>
 ```bash
