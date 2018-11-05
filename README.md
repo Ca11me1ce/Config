@@ -1,6 +1,8 @@
 # GitConfigTest
 
 ### This is the note for Git in Github
+###Flow Process:
+0. In 
 #### push commit: <br>
 <b>git_push.sh</b><br>
 ```bash
