@@ -4,7 +4,7 @@
 ### Process:
 0. Download Git<br>
 
-1. In dir '~', <br>
+1. In dir '~', initialize git <br>
 ```bash
 git init
 ```
@@ -15,6 +15,7 @@ git init
 ```bash
 ssh-keygen -t rsa -C "your_email@email.com"
 ```
+> Always press 'ENTER', ignore password setting.<br>
 
 4. The ssh key is in '~'<br>
 ```bash
@@ -33,9 +34,9 @@ ssh -T git@github.com
 git config --global user.name "your name"
 git config --global user.email "your_email@email.com"
 ```
-7. Download your necessary repo<br>
+7. Download your necessary repo.<br>
 
-8. In the repo, use git_push.sh to commit modifications<br>
+8. In the repo, use git_push.sh to commit modifications.<br>
 ------
 #### Push Commit: <br>
 <b>git_push.sh</b><br>
