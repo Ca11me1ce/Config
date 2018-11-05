@@ -20,8 +20,8 @@ ssh-keygen -t rsa -C "your_email@email.com"
 ```bash
 cat ~/.ssh/id_rsa.pub
 ```
-Copy ssh public key, and go to https://www.github.com<br>
-Go to Profile>>Setting>>SSH and GPG keys, create a new ssh key and paste ssh public key.
+> Copy ssh public key, and go to https://www.github.com<br>
+> Go to Profile>>Setting>>SSH and GPG keys, create a new ssh key and paste ssh public key.
 
 5. Test connection
 ```bash
@@ -37,7 +37,7 @@ git config --global user.email "your_email@email.com"
 
 8. In the repo, use git_push.sh to commit modifications
 
-#### push commit: <br>
+#### Push Commit: <br>
 <b>git_push.sh</b><br>
 ```bash
 git add .
