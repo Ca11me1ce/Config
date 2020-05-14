@@ -106,4 +106,41 @@ generate ssh key:
 * git checkout<br>
 * git stash<br>
 
+#### Revert Commit
+1. Already git push
+```bash
+git check "tag"	# Must set tag, which means a version name
+```
 
+2. Rollback in corresponding file
+```bash
+git log "file_name"
+git  check "commit_id" "file_name"
+
+# Rollback to commit_id in the file
+git commit -am "rollback note"
+# That will have a commit log, and does not delete previous commit - Will keep all logs
+# Record even the record is rollback
+git push origin master
+```
+
+3. Revert and delete the log
+```bash
+# delete newest commit - has the log
+git revert HEAD	# HEAD is the newest commit
+git push origin master	# It will have a record in log
+```
+
+3.1 The best revert method, revert everything materials and remove all logs, but DANGEROUS***
+```bash
+# delete newest commit - remove logs
+git reset --hard HEAD^	# HEAD is the newest commit
+git push origin master -f
+# It does not have a commit log and it remove the newest log
+```
+
+4. Rollback to a corresponding commit
+```bash
+git log
+git revert "commit_id"
+```
