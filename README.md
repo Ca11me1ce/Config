@@ -33,6 +33,7 @@ ssh -T git@github.com
 ```bash
 git config --global user.name "your name"
 git config --global user.email "your_email@email.com"
+git config --list
 ```
 7. Download your necessary repo.<br>
 
