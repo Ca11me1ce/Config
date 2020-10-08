@@ -145,3 +145,82 @@ git push origin master -f
 git log
 git revert "commit_id"
 ```
+
+
+### Create a branch
+
+```
+git check -b branch_name
+git push -u origin branch_name
+
+or
+
+Create a branch in Bitbucket/Github online
+```
+
+
+
+### View branch
+
+```
+Git branch
+Git branch -a
+```
+
+
+
+### Update remote git repository in local git copy
+
+```bash
+git fetch
+```
+
+
+
+### Switch branch
+
+```
+git checkout branch_name
+git checkout master
+git checkout version_4
+```
+
+
+
+### Rename/delete branch
+
+```
+git branch -m old new
+git branch --move old new
+git branch --delete branch_name
+```
+
+
+
+### Push to branch
+
+```
+git add .
+git commit -am "commit_name"
+git push origin branch_name
+```
+
+
+
+### Merge to master
+
+```
+git add .
+git commit -am "commit_name"
+git push origin branch_name
+
+git checkout master
+// git pull origin master # If multiple developer work in one project, pull first
+git merge brance_name
+// git status
+git push origin master
+```
+
+
+
+### Done
