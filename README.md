@@ -276,3 +276,4 @@ heroku run python # run python in heroku platform
 heroku restart
 heroku app:destroy <app_name> # delete app
 ```
+https://blog.csdn.net/jiulixiang_88/article/details/80604389
