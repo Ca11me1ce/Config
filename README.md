@@ -1,5 +1,9 @@
-# GitConfigTest
+# Config
 
+## GIT
+## HEROKU
+
+-----------------------------------------------------------------
 ### This is the note for the Git to connect to the Github
 ### Process:
 0. Download Git<br>
