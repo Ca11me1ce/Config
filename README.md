@@ -1,11 +1,11 @@
 # Config
 
-<span id = "git">## GIT</span>
+[git]## GIT
 ## HEROKU
 ## MYSQL
 
 -----------------------------------------------------------------
-### This is the note for the Git to connect to the Github (#git)
+### This is the note for the Git to connect to the Github
 ### Process:
 0. Download Git<br>
 
