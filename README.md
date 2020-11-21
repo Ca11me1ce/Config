@@ -287,3 +287,23 @@ sudo apt-get install mysql-server
 sudo mysql -uroot -p	# login MySQL
 systemctl status mysql.service
 ```
+### MySQL Bash commands
+```bash
+service mysql start
+service mysql stop
+service mysql restart
+```
+### MySQL
+```bash
+mysql-> status;
+mysql-> quit;
+mysql-> mysqladmin -uroot -proot password 123456 
+
+create database <database_name> charset=utf8;
+drop database <database_name>;
+use <database_name>;	# switch database
+select database();	# view current database
+
+mysql-> show databases;
+show tables;
+```
