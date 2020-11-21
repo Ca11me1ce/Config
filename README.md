@@ -1,6 +1,6 @@
 # Config
 
-[git]## GIT
+## GIT
 ## HEROKU
 ## MYSQL
 
