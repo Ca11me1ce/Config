@@ -2,6 +2,7 @@
 
 ## GIT
 ## HEROKU
+## MYSQL
 
 -----------------------------------------------------------------
 ### This is the note for the Git to connect to the Github
@@ -277,3 +278,12 @@ heroku restart
 heroku app:destroy <app_name> # delete app
 ```
 https://blog.csdn.net/jiulixiang_88/article/details/80604389
+
+
+## MySQL in Ubuntu
+```bash
+sudo apt install mysql-client-core-8.0
+sudo apt-get install mysql-server
+sudo mysql -uroot -p	# login MySQL
+systemctl status mysql.service
+```
