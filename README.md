@@ -224,3 +224,51 @@ git push origin master
 
 
 ### Done
+
+
+# Heroku Deployment
+1. Heroku register: https://heroku.com
+2. Download Heroku CLI: https://devcenter.heroku.com/articles/heroku-cli
+3. Start Heroku toolkit run: 
+```bash
+heroku login
+```
+4. Install Git
+5. $git init -> in the project folder
+```bash
+git init
+git add .
+git commit -am "updates"
+```
+6. Create Heroku app
+```bash
+heroku create <app_name> # create app
+heroku app # show the app
+```
+7. Config database
+```bash
+heroku addons:create heroku-postgresql:hobby-dev # create database, will get a DATABASE_URL
+heroku pg:promote DATABASE_URL # promote the database
+```
+8. Create Procfile <- Heroku running file
+```
+web: gunicorn app:app 
+# this first app is app.py - your start file or the project
+# the second app is the object app in app.py
+```
+9. Create requirements.txt, run command
+```bash
+ pip freeze > requirements. txt
+ # Must contain gunicorn==18.0
+```
+10. Deploy to Heroku, run command: 
+```bash
+git push heroku master
+```
+
+### Some useful commands: 
+```bash
+heroku run python # run python in heroku platform
+heroku restart
+heroku app:destroy <app_name> # delete app
+```
