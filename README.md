@@ -311,6 +311,7 @@ show tables;
 
 ### C++ QT
 QT Official Releases: http://download.qt.io/official_releases/
+
 http://download.qt.io/official_releases/online_installers/
 
 Installation Guide: https://blog.csdn.net/feimeng116/article/details/108218211
