@@ -3,6 +3,7 @@
 ## GIT
 ## HEROKU
 ## MYSQL
+## C++ QT
 
 -----------------------------------------------------------------
 ### This is the note for the Git to connect to the Github
@@ -307,3 +308,10 @@ select database();	# view current database
 mysql-> show databases;
 show tables;
 ```
+
+### C++ QT
+QT Official Releases: http://download.qt.io/official_releases/
+http://download.qt.io/official_releases/online_installers/
+
+Installation Guide: https://blog.csdn.net/feimeng116/article/details/108218211
+
