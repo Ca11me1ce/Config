@@ -316,3 +316,46 @@ http://download.qt.io/official_releases/online_installers/
 
 Installation Guide: https://blog.csdn.net/feimeng116/article/details/108218211
 
+
+### Qt for Android
+1. Install JDK 1.8
+```bash
+sudo apt-get update
+sudo apt-get install openjdk-8-jdk
+jave -version
+```
+2. Install Android SDK and Android studio
+https://developer.android.com/studio/index.html
+https://developer.android.com/studio/install - follow this video to install Android Studi and SDK
+```bash
+sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
+# /home/ychen/Android/Sdk
+# /home/ychen/Android/android-ndk-r19c
+
+gedit .bashrc
+source .bashrc
+
+# Add this to bashrc
+NDK_HOME=/home/ychen/Android/android-ndk-r19c
+export NDK_HOME
+export PATH=$PATH:$NDK_HOME
+ 
+ANDROID_SDK_ROOT=/home/ychen/Android/android-sdk-linux
+export ANDROID_SDK_ROOT
+ 
+export ANDROID_HOME=/usr/Android/android-sdk-linux
+export PATH=${PATH}:${ANDROID_HOME}/tools
+export PATH=${PATH}:${ANDROID_HOME}/platform-tools
+```
+
+Update Android SDK
+```bash
+android update sdk
+```
+
+3. Install NDK
+https://developer.android.com/ndk/downloads/older_releases
+android-ndk-r19c
+And this to bashrc - follow step 2
+
+4. Install Qt 5.12.2
