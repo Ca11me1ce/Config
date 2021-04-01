@@ -326,7 +326,9 @@ jave -version
 ```
 2. Install Android SDK and Android studio
 https://developer.android.com/studio/index.html
-https://developer.android.com/studio/install - follow this video to install Android Studi and SDK
+
+https://developer.android.com/studio/install - follow this video to install Android Studio and SDK
+** Important: Custom installation - Select Virtual Device
 ```bash
 sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
 # /home/ychen/Android/Sdk
