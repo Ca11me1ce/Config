@@ -325,9 +325,9 @@ sudo apt-get install openjdk-8-jdk
 jave -version
 ```
 2. Install Android SDK and Android studio
-https://developer.android.com/studio/index.html
-
+https://developer.android.com/studio/index.html - Android studio download link
 https://developer.android.com/studio/install - follow this video to install Android Studio and SDK
+
 ** Important: Custom installation - Select Virtual Device
 ```bash
 sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386
@@ -342,7 +342,7 @@ NDK_HOME=/home/ychen/Android/android-ndk-r19c
 export NDK_HOME
 export PATH=$PATH:$NDK_HOME
  
-ANDROID_SDK_ROOT=/home/ychen/Android/android-sdk-linux
+ANDROID_SDK_ROOT=/home/ychen/Android/Sdk
 export ANDROID_SDK_ROOT
  
 export ANDROID_HOME=/usr/Android/android-sdk-linux
